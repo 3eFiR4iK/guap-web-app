@@ -1,4 +1,37 @@
 {
+    "doctrine/annotations": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "cb4152ebcadbe620ea2261da1a1c5a9b8cea7672"
+        },
+        "files": [
+            "./config/routes/annotations.yaml"
+        ]
+    },
+    "doctrine/cache": {
+        "version": "v1.8.0"
+    },
+    "doctrine/collections": {
+        "version": "v1.6.1"
+    },
+    "doctrine/event-manager": {
+        "version": "v1.0.0"
+    },
+    "doctrine/lexer": {
+        "version": "v1.0.1"
+    },
+    "doctrine/persistence": {
+        "version": "1.1.1"
+    },
+    "doctrine/reflection": {
+        "version": "v1.0.0"
+    },
+    "myclabs/php-enum": {
+        "version": "1.7.1"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -10,6 +43,18 @@
     },
     "psr/simple-cache": {
         "version": "1.0.1"
+    },
+    "sensio/framework-extra-bundle": {
+        "version": "5.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "5.2",
+            "ref": "fb7e19da7f013d0d422fa9bce16f5c510e27609b"
+        },
+        "files": [
+            "./config/packages/sensio_framework_extra.yaml"
+        ]
     },
     "symfony/cache": {
         "version": "v4.2.9"
@@ -33,10 +78,16 @@
     "symfony/contracts": {
         "version": "v1.1.1"
     },
+    "symfony/css-selector": {
+        "version": "v4.2.9"
+    },
     "symfony/debug": {
         "version": "v4.2.9"
     },
     "symfony/dependency-injection": {
+        "version": "v4.2.9"
+    },
+    "symfony/dom-crawler": {
         "version": "v4.2.9"
     },
     "symfony/dotenv": {
@@ -106,6 +157,9 @@
     "symfony/polyfill-mbstring": {
         "version": "v1.11.0"
     },
+    "symfony/polyfill-php72": {
+        "version": "v1.11.0"
+    },
     "symfony/property-access": {
         "version": "v4.2.9"
     },
@@ -124,6 +178,18 @@
             "./config/routes.yaml"
         ]
     },
+    "symfony/security-core": {
+        "version": "v4.2.9"
+    },
+    "symfony/security-guard": {
+        "version": "v4.2.9"
+    },
+    "symfony/security-http": {
+        "version": "v4.2.9"
+    },
+    "symfony/serializer": {
+        "version": "v4.2.9"
+    },
     "symfony/validator": {
         "version": "4.1",
         "recipe": {
@@ -137,10 +203,16 @@
             "./config/packages/validator.yaml"
         ]
     },
+    "symfony/var-dumper": {
+        "version": "v4.2.9"
+    },
     "symfony/var-exporter": {
         "version": "v4.2.9"
     },
     "symfony/yaml": {
         "version": "v4.2.9"
+    },
+    "vkcom/vk-php-sdk": {
+        "version": "5.95.5"
     }
 }
