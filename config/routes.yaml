@@ -1,3 +1,5 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+api_v1_vk:
+  resource: '../src/Action/Api/V1/Vk/'
+  type: annotation
+  prefix: '/api/v1'
+
